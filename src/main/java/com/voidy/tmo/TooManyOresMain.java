@@ -1,5 +1,6 @@
 package com.voidy.tmo;
 
+import com.voidy.tmo.block.ModBlocks;
 import com.voidy.tmo.items.ModItemGroup;
 import com.voidy.tmo.items.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -18,6 +19,7 @@ public class TooManyOresMain implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

@@ -13,7 +13,7 @@ public class ModItemGroup {
 
     public static void registerItemGroups() {
         TooManyOres = FabricItemGroup.builder(new Identifier(TooManyOresMain.MOD_ID, "citrine"))
-                .displayName(Text.translatable("itemgroup.toomanyores"))
+                .displayName(Text.translatable("Too Many Ores"))
                 .icon(() -> new ItemStack(ModItems.CITRINE)).build();
     }
 }
