@@ -1,5 +1,8 @@
 {
   "item.tmo-mod.citrine": "Citrine",
-  "item.tmo-mod.raw_citrine": "Raw Citrine"
+  "item.tmo-mod.raw_citrine": "Raw Citrine",
+  "block.tmo-mod.citrine_block": "Block of Citrine",
+
+  "itemgroup:citrine": "Citrine Item Group"
 
 }
