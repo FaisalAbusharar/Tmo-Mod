@@ -1,5 +1,6 @@
 package com.voidy.tmo;
 
+import com.voidy.tmo.items.ModItems;
 import net.fabricmc.api.ClientModInitializer;
 
 public class TooManyOresClient implements ClientModInitializer {
