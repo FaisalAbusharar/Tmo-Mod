@@ -3,7 +3,7 @@
 	"package": "com.voidy.tmo.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin"
+		"TmoMixinClient"
 	],
 	"injectors": {
 		"defaultRequire": 1
