@@ -2,6 +2,7 @@ package com.voidy.tmo.block;
 
 import com.voidy.tmo.TooManyOresMain;
 import com.voidy.tmo.items.ModItemGroup;
+import com.voidy.tmo.world.tree.RedMapleSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -31,7 +32,7 @@ public class ModBlocks {
     public static final Block RED_MAPLE_LEAVES = registerBlock("red_maple_leaves", new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()), ModItemGroup.TooManyOres);
 
 
-    public static final Block RED_MAPLE_SAPLING = registerBlock("red_maple_sapling", new SaplingBlock(null,FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()), ModItemGroup.TooManyOres);
+    public static final Block RED_MAPLE_SAPLING = registerBlock("red_maple_sapling", new SaplingBlock(new RedMapleSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()), ModItemGroup.TooManyOres);
 
 
 
