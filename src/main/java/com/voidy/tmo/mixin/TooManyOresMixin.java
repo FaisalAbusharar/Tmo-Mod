@@ -11,6 +11,6 @@ public class TooManyOresMixin {
 	@Inject(at = @At("HEAD"), method = "loadWorld")
 	private void init(CallbackInfo info) {
 		// This code is injected into the start of MinecraftServer.loadWorld()V
-		// love how this class is so useless yet the game wont start without it at the moment
+		// love how this class is so useless yet the game won't start without it at the moment
 	}
 }

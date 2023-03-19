@@ -21,7 +21,7 @@ public class ModBlocks {
 
     public static final Block CITRINE_BLOCK = registerBlock("citrine_block", new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.TooManyOres);
     public static final Block CITRINE_ORE = registerBlock("citrine_ore", new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(), UniformIntProvider.create(2,6)), ModItemGroup.TooManyOres);
-    public static final Block DEEPSLATE_CITRINE_ORE = registerBlock("deepslate_citrine_ore", new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(), UniformIntProvider.create(3,7)), ModItemGroup.TooManyOres);
+    public static final Block DEEPSLATE_CITRINE_ORE = registerBlock("deepslate_citrine_ore.json", new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(), UniformIntProvider.create(3,7)), ModItemGroup.TooManyOres);
 
 
 
