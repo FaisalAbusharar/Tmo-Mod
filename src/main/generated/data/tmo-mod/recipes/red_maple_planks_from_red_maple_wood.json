@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "BUILD_BLOCKS",
+  "ingredients": [
+    {
+      "item": "tmo-mod:red_maple_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "tmo-mod:red_maple_planks"
+  }
+}

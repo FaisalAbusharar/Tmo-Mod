@@ -1,7 +1,13 @@
-// 1.19.4	2023-03-19T16:14:36.216362	tmo-mod/Recipes
-efe3251d329f8ee2b3dce6ad69c32be67ffca2bc data\tmo-mod\recipes\citrine_block.json
+// 1.19.4	2023-03-19T17:51:02.8530535	tmo-mod/Recipes
 9be68444cd8ac8d690cb1102e1928bbf3af07897 data\tmo-mod\recipes\citrine_from_smelting_raw_citrine.json
 ac768bbdf7211950f0bb5507490efc6de44422b3 data\tmo-mod\advancements\recipes\misc\citrine_from_smelting_raw_citrine.json
+7dca6e00b786024e478862bc63f4740b93a018f1 data\tmo-mod\recipes\red_maple_wood.json
+4c58c18e269d4c3ce37333bf921cd7b7ad21bde1 data\tmo-mod\recipes\red_maple_planks_from_red_maple_wood.json
 6acdc39501d4a4b7f40f1a599d09fb14a78916cb data\tmo-mod\advancements\recipes\misc\citrine_block.json
+da1b12f4042019393b7a698eacd83715f64805b6 data\tmo-mod\advancements\recipes\misc\red_maple_planks_from_red_maple_wood.json
+efe3251d329f8ee2b3dce6ad69c32be67ffca2bc data\tmo-mod\recipes\citrine_block.json
+a99e33f2bb4ad34fc9f6b24632904763e45bf2b8 data\tmo-mod\advancements\recipes\building_blocks\red_maple_wood.json
+05541f32e3f87b4ff9b0f184526dddb5cc0c0409 data\tmo-mod\advancements\recipes\misc\red_maple_planks_from_red_maple_log.json
+4cf7c7dc9868de911549a0c56a6814d165f9b77e data\tmo-mod\recipes\red_maple_planks_from_red_maple_log.json
 1d89fa3fc3bebc5630ef5d3d78e12003564d35fa data\tmo-mod\recipes\citrine.json
 3a3e50ed40ef68522d0c74809c3cc5353351cbbe data\tmo-mod\advancements\recipes\building_blocks\citrine.json
