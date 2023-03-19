@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 1,
+  "group": "citrine",
+  "ingredient": {
+    "item": "tmo-mod:raw_citrine"
+  },
+  "result": "tmo-mod:citrine"
+}
