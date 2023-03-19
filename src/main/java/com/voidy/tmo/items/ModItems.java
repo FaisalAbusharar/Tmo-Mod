@@ -31,6 +31,10 @@ public class ModItems {
 
 
     public static void registerModItems() {
+
+
         TooManyOresMain.LOGGER.info("Registering Mod Items For " + TooManyOresMain.MOD_ID);
+        addItemsToItemGroup();
+
     }
 }
