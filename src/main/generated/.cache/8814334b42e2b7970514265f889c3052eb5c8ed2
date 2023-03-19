@@ -1,0 +1,12 @@
+// 1.19.4	2023-03-19T13:54:49.6898651	tmo-mod/Model Definitions
+e509b062c398891a03358e31388e6f346ca79d97 assets\tmo-mod\models\item\raw_citrine.json
+334b245aa2bfb89c6a251b34c750aa70fa4abb05 assets\tmo-mod\models\item\deepslate_citrine_ore.json
+a5c69e688f5ca14b72fb29f8ceba18315182d286 assets\tmo-mod\models\block\deepslate_citrine_ore.json
+c324836456fd0125400f71b030793643edde9ccc assets\tmo-mod\blockstates\deepslate_citrine_ore.json
+868031a9b629ec6f63af228d270e1e7d32402c25 assets\tmo-mod\blockstates\citrine_ore.json
+3b1664e6beb0ddcadf1bdd99214cd1e96849fd21 assets\tmo-mod\models\item\citrine.json
+fd02ce19ab16717a98d5c7b16adf27f6451c2dd8 assets\tmo-mod\models\block\citrine_ore.json
+65b60dc56fc0d81c164ca37e6c3caf866d53cef0 assets\tmo-mod\models\item\citrine_block.json
+5de971651e91f06cace4627e1137885320aa7885 assets\tmo-mod\models\item\citrine_ore.json
+d5c75bbf227a40b68bba6b3a194aba9017586012 assets\tmo-mod\models\block\citrine_block.json
+2d22c037ad6afafe64324bfc32e36a25a5926c0d assets\tmo-mod\blockstates\citrine_block.json

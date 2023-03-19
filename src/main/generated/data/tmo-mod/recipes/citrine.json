@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "building",
   "ingredients": [
     {
       "item": "tmo-mod:citrine_block"
     }
   ],
   "result": {
-    "item": "tmo-mod:citrine",
-    "count": 9
+    "count": 9,
+    "item": "tmo-mod:citrine"
   }
 }
