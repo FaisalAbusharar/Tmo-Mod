@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -31,17 +32,6 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
 
         // EXAMPLE...
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_CITRINE)
-                .pattern("SSS")
-                .pattern("SCS")
-                .pattern("SSS")
-                .input('S', Items.STONE)
-                .input('C', ModItems.CITRINE)
-                .criterion(FabricRecipeProvider.hasItem(Items.STONE),
-                        FabricRecipeProvider.conditionsFromItem(Items.STONE))
-                .criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE),
-                        FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.RAW_CITRINE)));
 
 
     }

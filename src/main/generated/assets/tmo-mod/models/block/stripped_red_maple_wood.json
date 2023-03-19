@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tmo-mod:block/stripped_red_maple_log",
+    "side": "tmo-mod:block/stripped_red_maple_log"
+  }
+}

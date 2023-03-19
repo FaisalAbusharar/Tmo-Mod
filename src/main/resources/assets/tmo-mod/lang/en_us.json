@@ -5,6 +5,14 @@
   "block.tmo-mod.citrine_ore": "Citrine Ore",
   "block.tmo-mod.deepslate_citrine_ore": "Deepslate Citrine Ore",
 
-  "itemgroup:tmo": "Too many Ores"
+  "itemgroup:tmo": "Too many Ores",
+
+  "block.tmo-mod.red_maple_log": "Red Maple Log",
+  "block.tmo-mod.red_maple_wood": "Red Maple Wood",
+  "block.tmo-mod.stripped_red_maple_log": "Stripped Red Maple Log",
+  "block.tmo-mod.stripped_red_maple_wood": "Stripped Red Maple Wood",
+  "block.tmo-mod.red_maple_planks": "Red Maple Planks",
+  "block.tmo-mod.red_maple_leaves": "Red Maple Leaves",
+  "block.tmo-mod.red_maple_sapling": "Red Maple Sapling"
 
 }

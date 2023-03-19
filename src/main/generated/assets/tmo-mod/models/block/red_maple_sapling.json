@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "tmo-mod:block/red_maple_sapling"
+  }
+}
