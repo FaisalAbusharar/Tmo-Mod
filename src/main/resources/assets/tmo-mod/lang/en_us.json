@@ -1,7 +1,9 @@
 {
   "item.tmo-mod.citrine": "Citrine",
   "item.tmo-mod.raw_citrine": "Raw Citrine",
-  "block.tmo-mod.citrine_block": "Block of Citrine",
+  "block.tmo-mod.citrine_block": "Citrine Block",
+  "block.tmo-mod.citrine_ore": "Citrine Ore",
+  "block.tmo-mod.deepslate_citrine_ore": "Deepslate Citrine Ore",
 
   "itemgroup:citrine": "Too many Ores"
 
