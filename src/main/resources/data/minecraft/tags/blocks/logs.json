@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tmo-mod:red_maple_log",
+    "tmo-mod:red_maple_wood",
+    "tmo-mod:stripped_red_maple_log",
+    "tmo-mod:stripped_red_maple_wood"
+  ]
+}

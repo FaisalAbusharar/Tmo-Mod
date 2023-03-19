@@ -5,6 +5,7 @@ import com.voidy.tmo.block.ModFlammableBlockRegistry;
 import com.voidy.tmo.block.ModStrippedBlockRegistry;
 import com.voidy.tmo.items.ModItemGroup;
 import com.voidy.tmo.items.ModItems;
+import com.voidy.tmo.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -22,6 +23,8 @@ public class TooManyOresMain implements ModInitializer {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModWorldGeneration.generateModWorldGen();
 
 		ModFlammableBlockRegistry.registerFlammableBlocks();
 		ModStrippedBlockRegistry.strippedBlockRegistry();

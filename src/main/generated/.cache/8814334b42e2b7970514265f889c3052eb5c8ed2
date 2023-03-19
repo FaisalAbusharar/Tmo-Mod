@@ -1,4 +1,4 @@
-// 1.19.4	2023-03-19T15:43:30.8688061	tmo-mod/Model Definitions
+// 1.19.4	2023-03-19T16:14:36.2143621	tmo-mod/Model Definitions
 4ec6adaab5e17a3d3fe6deb94a722f3267872097 assets\tmo-mod\blockstates\red_maple_sapling.json
 8a79daacf295ed23708f5bd91cfb988c1ae02a9a assets\tmo-mod\models\item\red_maple_leaves.json
 982d2fc36159162b40d80182f8285a9af3708e98 assets\tmo-mod\models\block\stripped_red_maple_log_horizontal.json
@@ -11,8 +11,8 @@ dea8bd986aa4f8b43d429f175170062f1423161b assets\tmo-mod\models\block\red_maple_l
 f6408e590df2c872492e8fa73f232d80a0045fea assets\tmo-mod\models\block\red_maple_wood.json
 96dbb1a613d94d889aeacc9c9d15a5eaa316a487 assets\tmo-mod\models\item\stripped_red_maple_wood.json
 a5c69e688f5ca14b72fb29f8ceba18315182d286 assets\tmo-mod\models\block\deepslate_citrine_ore.json
-868031a9b629ec6f63af228d270e1e7d32402c25 assets\tmo-mod\blockstates\citrine_ore.json
 043095d09e7b20f7f35e67dcc87e355ec1a09f06 assets\tmo-mod\blockstates\red_maple_log.json
+868031a9b629ec6f63af228d270e1e7d32402c25 assets\tmo-mod\blockstates\citrine_ore.json
 8ce15641354f48a36ec93971f2bce4e0bd176e42 assets\tmo-mod\blockstates\red_maple_leaves.json
 fd02ce19ab16717a98d5c7b16adf27f6451c2dd8 assets\tmo-mod\models\block\citrine_ore.json
 33b250d3d9eddb3833ec2cb26cae8442f0f7d6a9 assets\tmo-mod\models\block\red_maple_planks.json
@@ -24,8 +24,8 @@ c324836456fd0125400f71b030793643edde9ccc assets\tmo-mod\blockstates\deepslate_ci
 74d34961fec7b44321a6773de34c78430f84e265 assets\tmo-mod\models\block\red_maple_log_horizontal.json
 a0e00aa171a175b61c59d0c64143d522b17ab0da assets\tmo-mod\blockstates\stripped_red_maple_log.json
 e509b062c398891a03358e31388e6f346ca79d97 assets\tmo-mod\models\item\raw_citrine.json
-65de5e7b0c4f9f4ad22b08930899336b68e6d816 assets\tmo-mod\models\item\red_maple_sapling.json
 334b245aa2bfb89c6a251b34c750aa70fa4abb05 assets\tmo-mod\models\item\deepslate_citrine_ore.json
+65de5e7b0c4f9f4ad22b08930899336b68e6d816 assets\tmo-mod\models\item\red_maple_sapling.json
 879ec4f58033afe557bc90aaac8596a8d5079eeb assets\tmo-mod\models\block\red_maple_log.json
 1cd6b8725c907a73394595c18eb3d8984444400d assets\tmo-mod\models\item\red_maple_log.json
 3b1664e6beb0ddcadf1bdd99214cd1e96849fd21 assets\tmo-mod\models\item\citrine.json

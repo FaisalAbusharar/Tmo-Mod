@@ -5,6 +5,7 @@ import com.voidy.tmo.data.ModModelProvider;
 import com.voidy.tmo.data.ModRecipeGenerator;
 import com.voidy.tmo.data.ModWorldGenerator;
 import com.voidy.tmo.world.ModConfiguredFeatures;
+import com.voidy.tmo.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
@@ -23,6 +24,7 @@ public class TooManyOresDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void buildRegistry(RegistryBuilder registryBuilder){
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 	}
 	// God save us all from thy bootstrap method
 }
