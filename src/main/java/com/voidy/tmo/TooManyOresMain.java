@@ -24,6 +24,7 @@ public class TooManyOresMain implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+
 		ModWorldGeneration.generateModWorldGen();
 
 		ModFlammableBlockRegistry.registerFlammableBlocks();
