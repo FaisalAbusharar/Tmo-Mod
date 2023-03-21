@@ -24,3 +24,7 @@
 
 * Tool Bases
 * Citrine Pickaxe
+* Citrine Axe
+* Citrine Sword
+* Citrine Shovel
+* Citrine Hoe
