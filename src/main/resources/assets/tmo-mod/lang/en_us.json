@@ -15,6 +15,10 @@
   "block.tmo-mod.red_maple_leaves": "Red Maple Leaves",
   "block.tmo-mod.red_maple_sapling": "Red Maple Sapling",
 
-  "item.tmo-mod.citrine_pickaxe": "Citrine Pickaxe"
+  "item.tmo-mod.citrine_pickaxe": "Citrine Pickaxe",
+  "item.tmo-mod.citrine_shovel": "Citrine Shovel",
+  "item.tmo-mod.citrine_axe": "Citrine Axe",
+  "item.tmo-mod.citrine_sword": "Citrine Sword",
+  "item.tmo-mod.citrine_hoe": "Citrine Hoe"
 
 }

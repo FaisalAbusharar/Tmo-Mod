@@ -36,5 +36,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CITRINE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_CITRINE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CITRINE_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CITRINE_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CITRINE_SWORD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CITRINE_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CITRINE_SHOVEL, Models.GENERATED);
+
     }
 }
