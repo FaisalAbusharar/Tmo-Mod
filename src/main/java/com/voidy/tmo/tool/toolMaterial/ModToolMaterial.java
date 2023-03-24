@@ -8,7 +8,7 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-public enum ToolMaterial implements net.minecraft.item.ToolMaterial {
+public enum ModToolMaterial implements net.minecraft.item.ToolMaterial {
 
     CITRINE(MiningLevels.DIAMOND, 2500, 5.0f, 2.0f, 15, () -> Ingredient.ofItems(ModItems.CITRINE)),
     EMERALD(MiningLevels.DIAMOND, 1561, 8.0f, 3.0f, 10, () -> Ingredient.ofItems(Items.EMERALD));
@@ -20,7 +20,7 @@ public enum ToolMaterial implements net.minecraft.item.ToolMaterial {
     private final int enchantability;
     private final Lazy<Ingredient> repairIngredient;
 
-    private ToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    private ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
         this.miningLevel = miningLevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;

@@ -2,6 +2,8 @@ package com.voidy.tmo.armor.armorMaterial;
 
 import java.util.EnumMap;
 import java.util.function.Supplier;
+
+import com.voidy.tmo.items.ModItems;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Items;
@@ -19,14 +21,14 @@ public enum ModArmorMaterial implements StringIdentifiable, ArmorMaterial {
         map.put(ArmorItem.Type.LEGGINGS, 5);
         map.put(ArmorItem.Type.CHESTPLATE, 6);
         map.put(ArmorItem.Type.HELMET, 2);
-    }), 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.EMERALD)),
+    }), 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 3.0f, 10.0f, () -> Ingredient.ofItems(ModItems.CITRINE)),
 
-    EMERALD("emerald", 33, Util.make(new EnumMap<ArmorItem.Type, Integer>(ArmorItem.Type.class), map -> {
+    EMERALD("emerald", 35, Util.make(new EnumMap<ArmorItem.Type, Integer>(ArmorItem.Type.class), map -> {
         map.put(ArmorItem.Type.BOOTS, 3);
         map.put(ArmorItem.Type.LEGGINGS, 6);
         map.put(ArmorItem.Type.CHESTPLATE, 8);
         map.put(ArmorItem.Type.HELMET, 3);
-    }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f, () -> Ingredient.ofItems(Items.EMERALD));
+    }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.5f, () -> Ingredient.ofItems(Items.EMERALD));
 
 
     public static final StringIdentifiable.Codec<net.minecraft.item.ArmorMaterials> CODEC;
