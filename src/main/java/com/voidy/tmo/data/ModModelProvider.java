@@ -35,6 +35,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CITRINE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_CITRINE, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.CITRINE_PICKAXE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CITRINE_AXE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CITRINE_SWORD, Models.GENERATED);
@@ -46,6 +47,22 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EMERALD_SWORD, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMERALD_HOE, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMERALD_SHOVEL, Models.GENERATED);
+
+
+        itemModelGenerator.register(ModItems.EMERALD_CHESTPALTE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_BOOTS, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.CITRINE_HELMET,Models.GENERATED);
+        itemModelGenerator.register(ModItems.CITRINE_LEGGINGS,Models.GENERATED);
+        itemModelGenerator.register(ModItems.CITRINE_CHESTPLATE,Models.GENERATED);
+        itemModelGenerator.register(ModItems.CITRINE_BOOTS,Models.GENERATED);
+
+
+
+
+
 
     }
 }
