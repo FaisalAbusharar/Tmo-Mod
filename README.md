@@ -33,3 +33,8 @@
 * Emerald Sword
 * Emerald Shovel
 * Emerald Hoe
+
+# Armor
+### Completed
+* Citrine Helmet, Chestplate, Leggings, Boots
+* Emerald Helmet, Chestplate, Leggings, Boots
