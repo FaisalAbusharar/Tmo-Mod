@@ -19,6 +19,13 @@
   "item.tmo-mod.citrine_shovel": "Citrine Shovel",
   "item.tmo-mod.citrine_axe": "Citrine Axe",
   "item.tmo-mod.citrine_sword": "Citrine Sword",
-  "item.tmo-mod.citrine_hoe": "Citrine Hoe"
+  "item.tmo-mod.citrine_hoe": "Citrine Hoe",
+
+
+  "item.tmo-mod.emerald_pickaxe": "Emerald Pickaxe",
+  "item.tmo-mod.emerald_shovel": "Emerald Shovel",
+  "item.tmo-mod.emerald_axe": "Emerald Axe",
+  "item.tmo-mod.emerald_sword": "Emerald Sword",
+  "item.tmo-mod.emerald_hoe": "Emerald Hoe"
 
 }

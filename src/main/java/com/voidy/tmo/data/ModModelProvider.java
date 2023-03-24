@@ -41,5 +41,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CITRINE_HOE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CITRINE_SHOVEL, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.EMERALD_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_SWORD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_SHOVEL, Models.GENERATED);
+
     }
 }
