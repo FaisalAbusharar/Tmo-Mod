@@ -101,25 +101,27 @@ public class ModItems {
 
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE);
         addToItemGroup(ModItemGroup.TooManyOres, RAW_CITRINE);
+
+        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_SWORD);
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_PICKAXE);
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_AXE);
-        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_SWORD);
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_SHOVEL);
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_HOE);
+        
+        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_SWORD);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_PICKAXE);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_AXE);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_SHOVEL);
-        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_SWORD);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_HOE);
 
+        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_HELMET);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_CHESTPALTE);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_LEGGINGS);
-        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_HELMET);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_BOOTS);
-        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_CHESTPLATE);
-        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_BOOTS);
-        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_LEGGINGS);
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_HELMET);
+        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_CHESTPLATE);
+        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_LEGGINGS);
+        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_BOOTS);
 
 
 
