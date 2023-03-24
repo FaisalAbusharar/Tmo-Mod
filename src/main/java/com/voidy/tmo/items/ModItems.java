@@ -26,12 +26,12 @@ public class ModItems {
 
     public static final Item CITRINE_PICKAXE = registerItem("citrine_pickaxe", CITRINE_PICKAXE_BASE);
 
-    public static ToolItem CITRINE_SWORD_BASE = new PickaxeBase(ToolMaterial.CITRINE, 1, -2.8F, new Item.Settings());
+    public static ToolItem CITRINE_SWORD_BASE = new PickaxeBase(ToolMaterial.CITRINE, 3, -2.8F, new Item.Settings());
 
 
     public static final Item CITRINE_SWORD = registerItem("citrine_sword", CITRINE_SWORD_BASE);
 
-    public static ToolItem CITRINE_AXE_BASE = new SwordBase(ToolMaterial.CITRINE, 1, -2.8F, new Item.Settings());
+    public static ToolItem CITRINE_AXE_BASE = new SwordBase(ToolMaterial.CITRINE, 6, -3.0F, new Item.Settings());
 
 
     public static final Item CITRINE_AXE = registerItem("citrine_axe", CITRINE_AXE_BASE);
@@ -50,12 +50,12 @@ public class ModItems {
 
     public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe", EMERALD_PICKAXE_BASE);
 
-    public static ToolItem EMERALD_SWORD_BASE = new PickaxeBase(ToolMaterial.EMERALD, 1, -2.8F, new Item.Settings());
+    public static ToolItem EMERALD_SWORD_BASE = new PickaxeBase(ToolMaterial.EMERALD, 4, -2.8F, new Item.Settings());
 
 
     public static final Item EMERALD_SWORD = registerItem("emerald_sword", EMERALD_SWORD_BASE);
 
-    public static ToolItem EMERALD_AXE_BASE = new SwordBase(ToolMaterial.EMERALD, 1, -2.8F, new Item.Settings());
+    public static ToolItem EMERALD_AXE_BASE = new SwordBase(ToolMaterial.EMERALD, 5, -3.0F, new Item.Settings());
 
 
     public static final Item EMERALD_AXE = registerItem("emerald_axe", EMERALD_AXE_BASE);
