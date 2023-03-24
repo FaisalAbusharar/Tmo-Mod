@@ -107,7 +107,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_AXE);
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_SHOVEL);
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_HOE);
-        
+
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_SWORD);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_PICKAXE);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_AXE);
