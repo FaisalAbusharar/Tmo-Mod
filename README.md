@@ -20,7 +20,7 @@
 * Fully completed
 
 # Tools
-## Completed
+### Completed
 
 * Tool Bases
 * Citrine Pickaxe
@@ -28,3 +28,8 @@
 * Citrine Sword
 * Citrine Shovel
 * Citrine Hoe
+* Emerald Pickaxe
+* Emerald Axe
+* Emerald Sword
+* Emerald Shovel
+* Emerald Hoe
