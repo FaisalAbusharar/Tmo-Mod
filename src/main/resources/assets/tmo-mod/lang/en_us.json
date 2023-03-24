@@ -26,6 +26,16 @@
   "item.tmo-mod.emerald_shovel": "Emerald Shovel",
   "item.tmo-mod.emerald_axe": "Emerald Axe",
   "item.tmo-mod.emerald_sword": "Emerald Sword",
-  "item.tmo-mod.emerald_hoe": "Emerald Hoe"
+  "item.tmo-mod.emerald_hoe": "Emerald Hoe",
+
+  "item.tmo-mod.emerald_chestplate": "Emerald Chestplate",
+  "item.tmo-mod.emerald_helmet": "Emerald Helmet",
+  "item.tmo-mod.emerald_boots": "Emerald Boots",
+  "item.tmo-mod.emerald_leggings": "Emerald Leggings",
+
+  "item.tmo-mod.citrine_chestplate": "Citrine Chestplate",
+  "item.tmo-mod.citrine_helmet": "Citrine Helmet",
+  "item.tmo-mod.citrine_boots": "Citrine Boots",
+  "item.tmo-mod.citrine_leggings": "Citrine Leggings"
 
 }
