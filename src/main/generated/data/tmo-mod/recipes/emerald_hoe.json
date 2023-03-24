@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "SS ",
+    " C ",
+    " C "
+  ],
+  "result": {
+    "item": "tmo-mod:emerald_hoe"
+  },
+  "show_notification": true
+}

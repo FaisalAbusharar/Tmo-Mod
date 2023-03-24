@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "SS ",
+    "SC ",
+    " C "
+  ],
+  "result": {
+    "item": "tmo-mod:emerald_axe"
+  },
+  "show_notification": true
+}

@@ -10,6 +10,7 @@ import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
@@ -37,7 +38,75 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
 
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_PICKAXE)
+                .pattern("SSS")
+                .pattern(" C ")
+                .pattern(" C ")
+                .input('S', Items.EMERALD)
+                .input('C', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(Items.EMERALD),
+                        FabricRecipeProvider.conditionsFromItem(Items.EMERALD))
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK),
+                        FabricRecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.EMERALD_PICKAXE)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_SHOVEL)
+                .pattern(" S ")
+                .pattern(" C ")
+                .pattern(" C ")
+                .input('S', Items.EMERALD)
+                .input('C', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(Items.EMERALD),
+                        FabricRecipeProvider.conditionsFromItem(Items.EMERALD))
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK),
+                        FabricRecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.EMERALD_SHOVEL)));
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_AXE)
+                .pattern("SS ")
+                .pattern("SC ")
+                .pattern(" C ")
+                .input('S', Items.EMERALD)
+                .input('C', Items.STICK)
+
+                .criterion(FabricRecipeProvider.hasItem(Items.EMERALD),
+                        FabricRecipeProvider.conditionsFromItem(Items.EMERALD))
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK),
+                        FabricRecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.EMERALD_AXE)));
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_SWORD)
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" C ")
+                .input('S', Items.EMERALD)
+                .input('C', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(Items.EMERALD),
+                        FabricRecipeProvider.conditionsFromItem(Items.EMERALD))
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK),
+                        FabricRecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.EMERALD_SWORD)));
+
+
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_HOE)
+                .pattern("SS ")
+                .pattern(" C ")
+                .pattern(" C ")
+                .input('S', Items.EMERALD)
+                .input('C', Items.STICK)
+
+                .criterion(FabricRecipeProvider.hasItem(Items.EMERALD),
+                        FabricRecipeProvider.conditionsFromItem(Items.EMERALD))
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK),
+                        FabricRecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.EMERALD_HOE)));
+
+
+    
 
 
 
