@@ -50,5 +50,8 @@
   "item.tmo-mod.enderium_chestplate": "Enderium Chestplate",
   "item.tmo-mod.enderium_helmet": "Enderium Helmet",
   "item.tmo-mod.enderium_boots": "Enderium Boots",
-  "item.tmo-mod.enderium_leggings": "Enderium Leggings"
+  "item.tmo-mod.enderium_leggings": "Enderium Leggings",
+
+  "item.tmo-mod.enderium": "Enderium",
+  "item.tmo-mod.raw_enderium": "Raw Enderium"
 }
