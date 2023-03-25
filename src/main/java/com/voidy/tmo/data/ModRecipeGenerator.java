@@ -2,16 +2,11 @@ package com.voidy.tmo.data;
 
 import com.voidy.tmo.block.ModBlocks;
 import com.voidy.tmo.items.ModItems;
-import net.fabricmc.fabric.api.block.v1.FabricBlock;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.Ingredient;
-import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -67,21 +62,34 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_SHOVEL).pattern(" S ").pattern(" C ").pattern(" C ").input('S', ModItems.CITRINE).input('C', Items.STICK).criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE), FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE)).criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(Items.STICK)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_SHOVEL)));
 
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_HELMET).pattern("SSS").pattern("S S").pattern("   ").input('S', ModItems.CITRINE).criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE), FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_CHESTPLATE).pattern("S S").pattern("SSS").pattern("SSS").input('S', ModItems.CITRINE).criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE), FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_CHESTPLATE)));
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_LEGGINGS).pattern("SSS").pattern("S S").pattern("S S").input('S', ModItems.CITRINE).criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE), FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_LEGGINGS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_BOOTS).pattern("   ").pattern("S S").pattern("S S").input('S', ModItems.CITRINE).criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE), FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_BOOTS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_HELMET).pattern("SSS").pattern("S S").pattern("   ").input('S', Items.EMERALD).criterion(FabricRecipeProvider.hasItem(Items.EMERALD), FabricRecipeProvider.conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.EMERALD_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_CHESTPLATE).pattern("S S").pattern("SSS").pattern("SSS").input('S', Items.EMERALD).criterion(FabricRecipeProvider.hasItem(Items.EMERALD), FabricRecipeProvider.conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.EMERALD_CHESTPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_LEGGINGS).pattern("SSS").pattern("S S").pattern("S S").input('S', Items.EMERALD).criterion(FabricRecipeProvider.hasItem(Items.EMERALD), FabricRecipeProvider.conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.EMERALD_LEGGINGS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_BOOTS).pattern("   ").pattern("S S").pattern("S S").input('S', Items.EMERALD).criterion(FabricRecipeProvider.hasItem(Items.EMERALD), FabricRecipeProvider.conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.EMERALD_BOOTS)));
+
 
 
         //FOR FUTURE SHAPED RECIPES
-       /* ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_AXE)
-                .pattern("SS ")
-                .pattern("SC ")
-                .pattern(" C ")
+       /* ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_LEGGINGS)
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
                 .input('S', ModItems.CITRINE)
-                .input('C', Items.STICK)
                 .criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE),
                         FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE))
-                .criterion(FabricRecipeProvider.hasItem(Items.STICK),
-                        FabricRecipeProvider.conditionsFromItem(Items.STICK))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_AXE)));*/
-
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_LEGGINGS))); */
 
 
     }

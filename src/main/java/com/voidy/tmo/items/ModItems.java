@@ -84,7 +84,7 @@ public class ModItems {
     public static final Item CITRINE_LEGGINGS = registerItem("citrine_leggings", CITRINE_LEGGINGS_BASE);
     public static final Item CITRINE_HELMET = registerItem("citrine_helmet", CITRINE_HELMET_BASE);
     public static final Item CITRINE_BOOTS = registerItem("citrine_boots", CITRINE_BOOTS_BASE);
-    public static final Item EMERALD_CHESTPALTE = registerItem("emerald_chestplate", EMERALD_CHESTPLATE_BASE);
+    public static final Item EMERALD_CHESTPLATE = registerItem("emerald_chestplate", EMERALD_CHESTPLATE_BASE);
     public static final Item EMERALD_LEGGINGS = registerItem("emerald_leggings", EMERALD_LEGGINGS_BASE);
     public static final Item EMERALD_HELMET = registerItem("emerald_helmet", EMERALD_HELMET_BASE);
     public static final Item EMERALD_BOOTS = registerItem("emerald_boots", EMERALD_BOOTS_BASE);
@@ -115,7 +115,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_HOE);
 
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_HELMET);
-        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_CHESTPALTE);
+        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_CHESTPLATE);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_LEGGINGS);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_BOOTS);
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_HELMET);

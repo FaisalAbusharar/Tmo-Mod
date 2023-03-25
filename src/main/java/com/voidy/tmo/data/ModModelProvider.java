@@ -49,7 +49,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EMERALD_SHOVEL, Models.GENERATED);
 
 
-        itemModelGenerator.register(ModItems.EMERALD_CHESTPALTE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMERALD_HELMET, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMERALD_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMERALD_BOOTS, Models.GENERATED);
