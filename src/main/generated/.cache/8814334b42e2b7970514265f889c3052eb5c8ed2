@@ -1,4 +1,4 @@
-// 1.19.4	2023-03-25T15:20:00.148876	tmo-mod/Model Definitions
+// 1.19.4	2023-03-25T15:29:46.2243282	tmo-mod/Model Definitions
 982d2fc36159162b40d80182f8285a9af3708e98 assets\tmo-mod\models\block\stripped_red_maple_log_horizontal.json
 dea8bd986aa4f8b43d429f175170062f1423161b assets\tmo-mod\models\block\red_maple_leaves.json
 8f4c982f4bbc46abf3a39e188eda485bad9ba05b assets\tmo-mod\models\item\citrine_shovel.json
@@ -19,8 +19,8 @@ f6deda6cd2ef8ab72845e04ec571bd4afbd0df14 assets\tmo-mod\models\item\stripped_red
 4f198372a9338612f1e7c46ceb568733155c7f50 assets\tmo-mod\models\item\citrine_chestplate.json
 c324836456fd0125400f71b030793643edde9ccc assets\tmo-mod\blockstates\deepslate_citrine_ore.json
 4b7e04e05778d736b4412664ebfb3139cf32cbb4 assets\tmo-mod\models\item\emerald_sword.json
-24f78b1eb9888d0f8da70175fad52ac4a06d483f assets\tmo-mod\models\item\citrine_hoe.json
 540b3e1148e532c78302dbd41cdc4f813d7291c5 assets\tmo-mod\models\item\enderium_shovel.json
+24f78b1eb9888d0f8da70175fad52ac4a06d483f assets\tmo-mod\models\item\citrine_hoe.json
 ca4ca2ff402098fee567af903d1b5427e6564b49 assets\tmo-mod\models\item\emerald_chestplate.json
 00cda553acd5b4541d99ef302ae939dfa5b21bec assets\tmo-mod\models\item\emerald_shovel.json
 5a4535a063cb1f7eb1c068bf7777f919c89327f7 assets\tmo-mod\models\block\enderium_block.json
@@ -33,8 +33,8 @@ e509b062c398891a03358e31388e6f346ca79d97 assets\tmo-mod\models\item\raw_citrine.
 3b1664e6beb0ddcadf1bdd99214cd1e96849fd21 assets\tmo-mod\models\item\citrine.json
 5f09c1fc9504efc6229af3b78e68a65ab62d68a4 assets\tmo-mod\models\item\red_maple_wood.json
 b70349d03cb6cd2e0f2daf8f9e58b8a403aa9aa2 assets\tmo-mod\models\item\enderium_ore.json
-1757af8b8d35c0f2cfe13bf2e2b29108a75bb244 assets\tmo-mod\models\item\citrine_sword.json
 0c9edaa706c1a46e76fb37807e74597af66957dc assets\tmo-mod\models\block\stripped_red_maple_wood.json
+1757af8b8d35c0f2cfe13bf2e2b29108a75bb244 assets\tmo-mod\models\item\citrine_sword.json
 4ec6adaab5e17a3d3fe6deb94a722f3267872097 assets\tmo-mod\blockstates\red_maple_sapling.json
 ac77336c72109c56dcf329393871e8d259dfc710 assets\tmo-mod\models\item\citrine_leggings.json
 8a79daacf295ed23708f5bd91cfb988c1ae02a9a assets\tmo-mod\models\item\red_maple_leaves.json

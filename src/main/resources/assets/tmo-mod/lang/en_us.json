@@ -38,6 +38,12 @@
   "item.tmo-mod.citrine_boots": "Citrine Boots",
   "item.tmo-mod.citrine_leggings": "Citrine Leggings",
 
-  "item.tmo-mod.maple_stick": "Maple Stick"
+  "item.tmo-mod.maple_stick": "Maple Stick",
+
+  "item.tmo-mod.enderium_sword": "Enderium Sword",
+  "item.tmo-mod.enderium_pickaxe": "Enderium Pickaxe",
+  "item.tmo-mod.enderium_axe": "Enderium Axe",
+  "item.tmo-mod.enderium_shovel": "Enderium Shovel",
+  "item.tmo-mod.enderium_hoe": "Enderium Hoe"
 
 }
