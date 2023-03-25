@@ -28,6 +28,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.RED_MAPLE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ENDERIUM_BLOCK);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ENDERIUM_ORE);
+
 
     }
 
@@ -47,6 +50,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EMERALD_SWORD, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMERALD_HOE, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMERALD_SHOVEL, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.ENDERIUM_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDERIUM_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDERIUM_SWORD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDERIUM_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDERIUM_SHOVEL, Models.GENERATED);
 
 
         itemModelGenerator.register(ModItems.EMERALD_CHESTPLATE, Models.GENERATED);
