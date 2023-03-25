@@ -59,6 +59,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CITRINE_CHESTPLATE,Models.GENERATED);
         itemModelGenerator.register(ModItems.CITRINE_BOOTS,Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.MAPLE_STICK,Models.GENERATED);
+
 
 
 

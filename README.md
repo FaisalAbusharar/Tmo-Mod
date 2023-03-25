@@ -38,3 +38,6 @@
 ### Completed
 * Citrine Helmet, Chestplate, Leggings, Boots
 * Emerald Helmet, Chestplate, Leggings, Boots
+
+# In Progress
+* Enderium Ore

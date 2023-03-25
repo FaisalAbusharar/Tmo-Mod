@@ -82,14 +82,15 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
 
         //FOR FUTURE SHAPED RECIPES
-       /* ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_LEGGINGS)
-                .pattern("SSS")
-                .pattern("S S")
-                .pattern("S S")
-                .input('S', ModItems.CITRINE)
-                .criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE),
-                        FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_LEGGINGS))); */
+      /* ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.MAPLE_STICK)
+                .pattern("   ")
+                .pattern(" S  ")
+                .pattern(" S ")
+                .input('S', ModBlocks.RED_MAPLE_PLANKS)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.RED_MAPLE_PLANKS),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.RED_MAPLE_PLANKS))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.MAPLE_STICK)));*/
+
 
 
     }

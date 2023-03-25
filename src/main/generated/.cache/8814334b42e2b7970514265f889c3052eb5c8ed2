@@ -1,4 +1,4 @@
-// 1.19.4	2023-03-25T13:56:15.0870182	tmo-mod/Model Definitions
+// 1.19.4	2023-03-25T14:39:21.4729693	tmo-mod/Model Definitions
 982d2fc36159162b40d80182f8285a9af3708e98 assets\tmo-mod\models\block\stripped_red_maple_log_horizontal.json
 dea8bd986aa4f8b43d429f175170062f1423161b assets\tmo-mod\models\block\red_maple_leaves.json
 8f4c982f4bbc46abf3a39e188eda485bad9ba05b assets\tmo-mod\models\item\citrine_shovel.json
@@ -39,12 +39,13 @@ f0afa6fd06e13e3f565dea88768e2f1a362bf0e5 assets\tmo-mod\models\item\emerald_axe.
 f6408e590df2c872492e8fa73f232d80a0045fea assets\tmo-mod\models\block\red_maple_wood.json
 00fc7abc52fdf5210dd056066b4e472aec340367 assets\tmo-mod\models\item\citrine_helmet.json
 043095d09e7b20f7f35e67dcc87e355ec1a09f06 assets\tmo-mod\blockstates\red_maple_log.json
-fd02ce19ab16717a98d5c7b16adf27f6451c2dd8 assets\tmo-mod\models\block\citrine_ore.json
 8ce15641354f48a36ec93971f2bce4e0bd176e42 assets\tmo-mod\blockstates\red_maple_leaves.json
-72c5c9705dbaad54b3182b01b2d691eb776b568e assets\tmo-mod\models\item\citrine_boots.json
+fd02ce19ab16717a98d5c7b16adf27f6451c2dd8 assets\tmo-mod\models\block\citrine_ore.json
 ddfb8f7ef3f0fa508cc4feb8419d0529ce44f9fd assets\tmo-mod\blockstates\red_maple_wood.json
+72c5c9705dbaad54b3182b01b2d691eb776b568e assets\tmo-mod\models\item\citrine_boots.json
 1b538bbed9ce8994adf9fddb9da2da4ec44d41c8 assets\tmo-mod\models\item\emerald_helmet.json
 d5c75bbf227a40b68bba6b3a194aba9017586012 assets\tmo-mod\models\block\citrine_block.json
+f4bd29079febf8befbd6129ad9abb5a0a54fe292 assets\tmo-mod\models\item\maple_stick.json
 a8a3a95b77d52ee409bf3e7ba75c1e1b00bc0091 assets\tmo-mod\models\item\citrine_axe.json
 74d34961fec7b44321a6773de34c78430f84e265 assets\tmo-mod\models\block\red_maple_log_horizontal.json
 334b245aa2bfb89c6a251b34c750aa70fa4abb05 assets\tmo-mod\models\item\deepslate_citrine_ore.json

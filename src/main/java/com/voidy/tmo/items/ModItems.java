@@ -40,7 +40,7 @@ public class ModItems {
     public static ToolItem EMERALDE_HOE_BASE = new HoeBase(ModToolMaterial.EMERALD, 1, -2.8F, new Item.Settings());
 
 
-    
+
     public static final Item CITRINE_SWORD = registerItem("citrine_sword", CITRINE_SWORD_BASE);
     public static final Item CITRINE_PICKAXE = registerItem("citrine_pickaxe", CITRINE_PICKAXE_BASE);
     public static final Item CITRINE_AXE = registerItem("citrine_axe", CITRINE_AXE_BASE);

@@ -1,4 +1,4 @@
-// 1.19.4	2023-03-25T13:56:15.0900183	tmo-mod/Recipes
+// 1.19.4	2023-03-25T14:39:21.4769704	tmo-mod/Recipes
 ac768bbdf7211950f0bb5507490efc6de44422b3 data\tmo-mod\advancements\recipes\misc\citrine_from_smelting_raw_citrine.json
 7dca6e00b786024e478862bc63f4740b93a018f1 data\tmo-mod\recipes\red_maple_wood.json
 474b39d57a4bba05aa667e50e5c8f84886239609 data\tmo-mod\recipes\citrine_hoe.json
@@ -13,8 +13,8 @@ f94975d5eb87bc12116c6018b0f355595c0e8f80 data\tmo-mod\recipes\citrine_pickaxe.js
 4150380b4585869c09a4af83915efd0e90a5aa77 data\tmo-mod\advancements\recipes\tools\emerald_boots.json
 7468248f5f9f02c8cd25fce3f6f6c1e680bea359 data\tmo-mod\recipes\emerald_helmet.json
 b9e6bd390841ea370f8026ca737ba086a6dbccab data\tmo-mod\advancements\recipes\tools\emerald_pickaxe.json
-1fa662c003dbd4fe28e3718f35db48f5e9825d23 data\tmo-mod\recipes\emerald_hoe.json
 3a3e50ed40ef68522d0c74809c3cc5353351cbbe data\tmo-mod\advancements\recipes\building_blocks\citrine.json
+1fa662c003dbd4fe28e3718f35db48f5e9825d23 data\tmo-mod\recipes\emerald_hoe.json
 4c58c18e269d4c3ce37333bf921cd7b7ad21bde1 data\tmo-mod\recipes\red_maple_planks_from_red_maple_wood.json
 2a7aaf35c2ca455c1bf6086684ce8e121be532a0 data\tmo-mod\advancements\recipes\tools\emerald_axe.json
 de484ae18d11dfd0934e7ec6273f4caa97750d6b data\tmo-mod\recipes\emerald_sword.json
