@@ -55,17 +55,13 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_AXE).pattern("SS ").pattern("SC ").pattern(" C ").input('S', ModItems.CITRINE).input('C', Items.STICK).criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE), FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE)).criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(Items.STICK)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_AXE)));
 
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_HOE).pattern("SS ").pattern(" C ").pattern(" C ").input('S', ModItems.CITRINE).input('C', Items.STICK).criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE), FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE)).criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(Items.STICK)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_HOE)));
 
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_SHOVEL).pattern(" S ").pattern(" C ").pattern(" C ").input('S', ModItems.CITRINE).input('C', Items.STICK).criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE), FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE)).criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(Items.STICK)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_SHOVEL)));
-
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_HELMET).pattern("SSS").pattern("S S").pattern("   ").input('S', ModItems.CITRINE).criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE), FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_HELMET)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_CHESTPLATE).pattern("S S").pattern("SSS").pattern("SSS").input('S', ModItems.CITRINE).criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE), FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_CHESTPLATE)));
-
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_LEGGINGS).pattern("SSS").pattern("S S").pattern("S S").input('S', ModItems.CITRINE).criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE), FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_LEGGINGS)));
 
