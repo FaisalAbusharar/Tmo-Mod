@@ -1,5 +1,6 @@
-// 1.19.4	2023-03-25T15:29:46.2243282	tmo-mod/Model Definitions
+// 1.19.4	2023-03-25T15:53:16.4764876	tmo-mod/Model Definitions
 982d2fc36159162b40d80182f8285a9af3708e98 assets\tmo-mod\models\block\stripped_red_maple_log_horizontal.json
+e23b61aec5b040e2dc0b4d828b6065ec93edaf6b assets\tmo-mod\models\item\enderium.json
 dea8bd986aa4f8b43d429f175170062f1423161b assets\tmo-mod\models\block\red_maple_leaves.json
 8f4c982f4bbc46abf3a39e188eda485bad9ba05b assets\tmo-mod\models\item\citrine_shovel.json
 1cabd36606a15188fc6a376bcf8c00a80412bda0 assets\tmo-mod\models\item\emerald_leggings.json
@@ -12,10 +13,12 @@ ce73282e23ee6a2ce750c832582a905718092cc8 assets\tmo-mod\models\item\emerald_hoe.
 a5c69e688f5ca14b72fb29f8ceba18315182d286 assets\tmo-mod\models\block\deepslate_citrine_ore.json
 b7946de4dac63e47d349c4fe00598ce4e071e88f assets\tmo-mod\models\item\enderium_block.json
 868031a9b629ec6f63af228d270e1e7d32402c25 assets\tmo-mod\blockstates\citrine_ore.json
+1aef350bb85932b21bdad93112298db4b25a5cc9 assets\tmo-mod\models\item\enderium_helmet.json
 a28d34bce6fcfe4bbb3bbfb09e6df1687f4b34a4 assets\tmo-mod\blockstates\enderium_ore.json
 33b250d3d9eddb3833ec2cb26cae8442f0f7d6a9 assets\tmo-mod\models\block\red_maple_planks.json
 aeab86de4a87c0a9dd282a423058f55c2599ce56 assets\tmo-mod\models\block\stripped_red_maple_log.json
 f6deda6cd2ef8ab72845e04ec571bd4afbd0df14 assets\tmo-mod\models\item\stripped_red_maple_log.json
+64e07411812b62943dfae15690d4b1099a3ece8e assets\tmo-mod\models\item\enderium_boots.json
 4f198372a9338612f1e7c46ceb568733155c7f50 assets\tmo-mod\models\item\citrine_chestplate.json
 c324836456fd0125400f71b030793643edde9ccc assets\tmo-mod\blockstates\deepslate_citrine_ore.json
 4b7e04e05778d736b4412664ebfb3139cf32cbb4 assets\tmo-mod\models\item\emerald_sword.json
@@ -55,11 +58,14 @@ ddfb8f7ef3f0fa508cc4feb8419d0529ce44f9fd assets\tmo-mod\blockstates\red_maple_wo
 72c5c9705dbaad54b3182b01b2d691eb776b568e assets\tmo-mod\models\item\citrine_boots.json
 d5c75bbf227a40b68bba6b3a194aba9017586012 assets\tmo-mod\models\block\citrine_block.json
 1b538bbed9ce8994adf9fddb9da2da4ec44d41c8 assets\tmo-mod\models\item\emerald_helmet.json
+27ddf8a4d9a389926dac0f990903970decc30fee assets\tmo-mod\models\item\raw_enderium.json
 f4bd29079febf8befbd6129ad9abb5a0a54fe292 assets\tmo-mod\models\item\maple_stick.json
 a8a3a95b77d52ee409bf3e7ba75c1e1b00bc0091 assets\tmo-mod\models\item\citrine_axe.json
 74d34961fec7b44321a6773de34c78430f84e265 assets\tmo-mod\models\block\red_maple_log_horizontal.json
 879ec4f58033afe557bc90aaac8596a8d5079eeb assets\tmo-mod\models\block\red_maple_log.json
 334b245aa2bfb89c6a251b34c750aa70fa4abb05 assets\tmo-mod\models\item\deepslate_citrine_ore.json
+2763e4dd6dae14d53526103d39252cb23df8834b assets\tmo-mod\models\item\enderium_chestplate.json
+9754f2c803ae3b7612fbb9fbd1bf0f63045cb504 assets\tmo-mod\models\item\enderium_leggings.json
 5de971651e91f06cace4627e1137885320aa7885 assets\tmo-mod\models\item\citrine_ore.json
 f1c0cc8848a9073063a30584ca902107dea40505 assets\tmo-mod\blockstates\enderium_block.json
 2d22c037ad6afafe64324bfc32e36a25a5926c0d assets\tmo-mod\blockstates\citrine_block.json

@@ -16,6 +16,7 @@ public class ModItems {
     public static final Item CITRINE = registerItem("citrine", new Item(new FabricItemSettings()));
     public static final Item RAW_CITRINE = registerItem("raw_citrine", new Item(new FabricItemSettings()));
     public static final Item ENDERIUM = registerItem("enderium", new Item(new FabricItemSettings()));
+    public static final Item RAW_ENDERIUM = registerItem("raw_enderium", new Item(new FabricItemSettings()));
 
 
     public static ToolItem CITRINE_PICKAXE_BASE = new PickaxeBase(ModToolMaterial.CITRINE, 1, -2.8F, new Item.Settings());
@@ -85,14 +86,27 @@ public class ModItems {
     public static final Item EMERALD_BOOTS_BASE = new ArmorItem(ModArmorMaterial.EMERALD, ArmorItem.Type.BOOTS, new Item.Settings());
 
 
+    public static final Item ENDERIUM_HELMET_BASE = new ArmorItem(ModArmorMaterial.ENDERIUM, ArmorItem.Type.HELMET, new Item.Settings());
+    public static final Item ENDERIUM_CHESTPLATE_BASE = new ArmorItem(ModArmorMaterial.ENDERIUM, ArmorItem.Type.CHESTPLATE, new Item.Settings());
+    public static final Item ENDERIUM_LEGGINGS_BASE = new ArmorItem(ModArmorMaterial.ENDERIUM, ArmorItem.Type.LEGGINGS, new Item.Settings());
+    public static final Item ENDERIUM_BOOTS_BASE = new ArmorItem(ModArmorMaterial.ENDERIUM, ArmorItem.Type.BOOTS, new Item.Settings());
+
+
     public static final Item CITRINE_CHESTPLATE = registerItem("citrine_chestplate", CITRINE_CHESTPLATE_BASE);
     public static final Item CITRINE_LEGGINGS = registerItem("citrine_leggings", CITRINE_LEGGINGS_BASE);
     public static final Item CITRINE_HELMET = registerItem("citrine_helmet", CITRINE_HELMET_BASE);
     public static final Item CITRINE_BOOTS = registerItem("citrine_boots", CITRINE_BOOTS_BASE);
+
+
     public static final Item EMERALD_CHESTPLATE = registerItem("emerald_chestplate", EMERALD_CHESTPLATE_BASE);
     public static final Item EMERALD_LEGGINGS = registerItem("emerald_leggings", EMERALD_LEGGINGS_BASE);
     public static final Item EMERALD_HELMET = registerItem("emerald_helmet", EMERALD_HELMET_BASE);
     public static final Item EMERALD_BOOTS = registerItem("emerald_boots", EMERALD_BOOTS_BASE);
+
+    public static final Item ENDERIUM_CHESTPLATE = registerItem("enderium_chestplate", ENDERIUM_CHESTPLATE_BASE);
+    public static final Item ENDERIUM_LEGGINGS = registerItem("enderium_leggings", ENDERIUM_LEGGINGS_BASE);
+    public static final Item ENDERIUM_HELMET = registerItem("enderium_helmet", ENDERIUM_HELMET_BASE);
+    public static final Item ENDERIUM_BOOTS = registerItem("enderium_boots", ENDERIUM_BOOTS_BASE);
 
 
     public static final Item MAPLE_STICK = registerItem("maple_stick", new Item(new FabricItemSettings()));
@@ -113,6 +127,9 @@ public class ModItems {
 
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE);
         addToItemGroup(ModItemGroup.TooManyOres, RAW_CITRINE);
+
+        addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM);
+        addToItemGroup(ModItemGroup.TooManyOres, RAW_ENDERIUM);
 
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_SWORD);
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_PICKAXE);
@@ -136,6 +153,11 @@ public class ModItems {
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_CHESTPLATE);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_LEGGINGS);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_BOOTS);
+
+        addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM_HELMET);
+        addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM_CHESTPLATE);
+        addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM_LEGGINGS);
+        addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM_BOOTS);
 
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_HELMET);
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_CHESTPLATE);

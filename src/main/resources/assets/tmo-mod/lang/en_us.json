@@ -44,6 +44,11 @@
   "item.tmo-mod.enderium_pickaxe": "Enderium Pickaxe",
   "item.tmo-mod.enderium_axe": "Enderium Axe",
   "item.tmo-mod.enderium_shovel": "Enderium Shovel",
-  "item.tmo-mod.enderium_hoe": "Enderium Hoe"
+  "item.tmo-mod.enderium_hoe": "Enderium Hoe",
 
+
+  "item.tmo-mod.enderium_chestplate": "Enderium Chestplate",
+  "item.tmo-mod.enderium_helmet": "Enderium Helmet",
+  "item.tmo-mod.enderium_boots": "Enderium Boots",
+  "item.tmo-mod.enderium_leggings": "Enderium Leggings"
 }
