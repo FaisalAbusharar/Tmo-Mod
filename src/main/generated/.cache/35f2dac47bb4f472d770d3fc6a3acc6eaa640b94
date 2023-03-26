@@ -1,4 +1,4 @@
-// 1.19.4	2023-03-26T19:56:45.1756521	tmo-mod/Recipes
+// 1.19.4	2023-03-26T20:08:43.2746674	tmo-mod/Recipes
 ac768bbdf7211950f0bb5507490efc6de44422b3 data\tmo-mod\advancements\recipes\misc\citrine_from_smelting_raw_citrine.json
 7dca6e00b786024e478862bc63f4740b93a018f1 data\tmo-mod\recipes\red_maple_wood.json
 474b39d57a4bba05aa667e50e5c8f84886239609 data\tmo-mod\recipes\citrine_hoe.json
@@ -7,15 +7,15 @@ ac768bbdf7211950f0bb5507490efc6de44422b3 data\tmo-mod\advancements\recipes\misc\
 e82b5eff217d5c55072402d0cccdeb75e49891d6 data\tmo-mod\advancements\recipes\tools\citrine_sword.json
 16bdc2a2e3c5b2217a229202769099b46bae9ded data\tmo-mod\recipes\citrine_helmet.json
 f94975d5eb87bc12116c6018b0f355595c0e8f80 data\tmo-mod\recipes\citrine_pickaxe.json
-0997a55763cdf2472559509397fe46fac28be644 data\tmo-mod\advancements\recipes\tools\emerald_shovel.json
 5f7ccbcdec6084f3cb8f19c6ca86ec1f47cd28a5 data\tmo-mod\advancements\recipes\tools\citrine_hoe.json
+0997a55763cdf2472559509397fe46fac28be644 data\tmo-mod\advancements\recipes\tools\emerald_shovel.json
 359e70d9971d05d6042d6c062ed3173a2292926c data\tmo-mod\advancements\recipes\tools\cursed_star.json
 679066847786511034e22c53fcd52540cefb5875 data\tmo-mod\advancements\recipes\tools\citrine_helmet.json
 4150380b4585869c09a4af83915efd0e90a5aa77 data\tmo-mod\advancements\recipes\tools\emerald_boots.json
 7468248f5f9f02c8cd25fce3f6f6c1e680bea359 data\tmo-mod\recipes\emerald_helmet.json
 b9e6bd390841ea370f8026ca737ba086a6dbccab data\tmo-mod\advancements\recipes\tools\emerald_pickaxe.json
-1fa662c003dbd4fe28e3718f35db48f5e9825d23 data\tmo-mod\recipes\emerald_hoe.json
 3a3e50ed40ef68522d0c74809c3cc5353351cbbe data\tmo-mod\advancements\recipes\building_blocks\citrine.json
+1fa662c003dbd4fe28e3718f35db48f5e9825d23 data\tmo-mod\recipes\emerald_hoe.json
 4c58c18e269d4c3ce37333bf921cd7b7ad21bde1 data\tmo-mod\recipes\red_maple_planks_from_red_maple_wood.json
 2a7aaf35c2ca455c1bf6086684ce8e121be532a0 data\tmo-mod\advancements\recipes\tools\emerald_axe.json
 da1b12f4042019393b7a698eacd83715f64805b6 data\tmo-mod\advancements\recipes\misc\red_maple_planks_from_red_maple_wood.json

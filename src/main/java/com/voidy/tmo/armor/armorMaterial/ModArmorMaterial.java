@@ -30,12 +30,12 @@ public enum ModArmorMaterial implements StringIdentifiable, ArmorMaterial {
         map.put(ArmorItem.Type.HELMET, 3);
     }), 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.5f, () -> Ingredient.ofItems(Items.EMERALD)),
 
-    ENDERIUM("enderium", 50, Util.make(new EnumMap<ArmorItem.Type, Integer>(ArmorItem.Type.class), map -> {
+    ENDERIUM("enderium", 60, Util.make(new EnumMap<ArmorItem.Type, Integer>(ArmorItem.Type.class), map -> {
         map.put(ArmorItem.Type.BOOTS, 6);
         map.put(ArmorItem.Type.LEGGINGS, 8);
         map.put(ArmorItem.Type.CHESTPLATE, 10);
         map.put(ArmorItem.Type.HELMET, 5);
-    }), 10, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0f, 1.5f, () -> Ingredient.ofItems(ModItems.ENDERIUM));
+    }), 10, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 5.0f, 1.5f, () -> Ingredient.ofItems(ModItems.ENDERIUM));
 
 
     public static final StringIdentifiable.Codec<net.minecraft.item.ArmorMaterials> CODEC;

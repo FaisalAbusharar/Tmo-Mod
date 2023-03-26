@@ -3,6 +3,8 @@
   "values": [
     "tmo-mod:citrine_ore",
     "tmo-mod:citrine_block",
-    "tmo-mod:deepslate_citrine_ore"
+    "tmo-mod:deepslate_citrine_ore",
+    "tmo-mod:enderium_ore",
+    "tmo-mod:enderium_block"
   ]
 }
