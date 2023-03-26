@@ -31,7 +31,6 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
     offerShapelessRecipe(exporter, ModBlocks.RED_MAPLE_PLANKS, ModBlocks.RED_MAPLE_WOOD, "BUILD_BLOCKS",4);
 
 
-        //EMERALD
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_PICKAXE).pattern("SSS").pattern(" C ").pattern(" C ").input('S', Items.EMERALD).input('C', Items.STICK).criterion(FabricRecipeProvider.hasItem(Items.EMERALD), FabricRecipeProvider.conditionsFromItem(Items.EMERALD)).criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(Items.STICK)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.EMERALD_PICKAXE)));
 
@@ -45,8 +44,6 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_HOE).pattern("SS ").pattern(" C ").pattern(" C ").input('S', Items.EMERALD).input('C', Items.STICK).criterion(FabricRecipeProvider.hasItem(Items.EMERALD), FabricRecipeProvider.conditionsFromItem(Items.EMERALD)).criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(Items.STICK)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.EMERALD_HOE)));
-
-        //CITRINE
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CITRINE_PICKAXE).pattern("SSS").pattern(" C ").pattern(" C ").input('S', ModItems.CITRINE).input('C', Items.STICK).criterion(FabricRecipeProvider.hasItem(ModItems.CITRINE), FabricRecipeProvider.conditionsFromItem(ModItems.CITRINE)).criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(Items.STICK)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CITRINE_PICKAXE)));
 
@@ -75,6 +72,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_BOOTS).pattern("   ").pattern("S S").pattern("S S").input('S', Items.EMERALD).criterion(FabricRecipeProvider.hasItem(Items.EMERALD), FabricRecipeProvider.conditionsFromItem(Items.EMERALD)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.EMERALD_BOOTS)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CURSED_STAR).pattern("XVX").pattern("VSV").pattern("XVX").input('S', Items.NETHER_STAR).input('V', ModItems.ENDERIUM).input('X', Items.DIAMOND).criterion(FabricRecipeProvider.hasItem(Items.NETHER_STAR), FabricRecipeProvider.conditionsFromItem(Items.NETHER_STAR)).criterion(FabricRecipeProvider.hasItem(ModItems.ENDERIUM), FabricRecipeProvider.conditionsFromItem(ModItems.ENDERIUM)).criterion(FabricRecipeProvider.hasItem(Items.DIAMOND), FabricRecipeProvider.conditionsFromItem(Items.DIAMOND)).offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CURSED_STAR)));
 
 
         //FOR FUTURE SHAPED RECIPES
@@ -86,6 +84,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(ModBlocks.RED_MAPLE_PLANKS),
                         FabricRecipeProvider.conditionsFromItem(ModBlocks.RED_MAPLE_PLANKS))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.MAPLE_STICK)));*/
+
 
 
 

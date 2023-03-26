@@ -110,6 +110,8 @@ public class ModItems {
 
 
     public static final Item MAPLE_STICK = registerItem("maple_stick", new Item(new FabricItemSettings()));
+    public static final Item CURSED_STAR = registerItem("cursed_star", new Item(new FabricItemSettings()));
+
 
 
 
@@ -127,9 +129,7 @@ public class ModItems {
 
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE);
         addToItemGroup(ModItemGroup.TooManyOres, RAW_CITRINE);
-
-        addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM);
-        addToItemGroup(ModItemGroup.TooManyOres, RAW_ENDERIUM);
+        
 
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_SWORD);
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_PICKAXE);
@@ -137,11 +137,27 @@ public class ModItems {
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_SHOVEL);
         addToItemGroup(ModItemGroup.TooManyOres, CITRINE_HOE);
 
+        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_HELMET);
+        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_CHESTPLATE);
+        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_LEGGINGS);
+        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_BOOTS);
+
+
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_SWORD);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_PICKAXE);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_AXE);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_SHOVEL);
         addToItemGroup(ModItemGroup.TooManyOres, EMERALD_HOE);
+
+        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_HELMET);
+        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_CHESTPLATE);
+        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_LEGGINGS);
+        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_BOOTS);
+
+
+        addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM);
+        addToItemGroup(ModItemGroup.TooManyOres, RAW_ENDERIUM);
+        addToItemGroup(ModItemGroup.TooManyOres, CURSED_STAR);
 
         addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM_SWORD);
         addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM_PICKAXE);
@@ -149,25 +165,17 @@ public class ModItems {
         addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM_SHOVEL);
         addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM_HOE);
 
-        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_HELMET);
-        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_CHESTPLATE);
-        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_LEGGINGS);
-        addToItemGroup(ModItemGroup.TooManyOres, EMERALD_BOOTS);
 
         addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM_HELMET);
         addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM_CHESTPLATE);
         addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM_LEGGINGS);
         addToItemGroup(ModItemGroup.TooManyOres, ENDERIUM_BOOTS);
 
-        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_HELMET);
-        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_CHESTPLATE);
-        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_LEGGINGS);
-        addToItemGroup(ModItemGroup.TooManyOres, CITRINE_BOOTS);
-
-
 
 
         addToItemGroup(ModItemGroup.TooManyOres, MAPLE_STICK);
+
+
 
 
 

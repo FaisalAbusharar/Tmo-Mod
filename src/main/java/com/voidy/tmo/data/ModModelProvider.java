@@ -41,6 +41,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.ENDERIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_ENDERIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CURSED_STAR, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.CITRINE_PICKAXE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CITRINE_AXE, Models.GENERATED);

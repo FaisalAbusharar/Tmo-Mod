@@ -27,8 +27,8 @@ public class ModBlocks {
     public static final Block RED_MAPLE_PLANKS = registerBlock("red_maple_planks", new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(10.0f).requiresTool()), ModItemGroup.TooManyOres);
     public static final Block RED_MAPLE_LEAVES = registerBlock("red_maple_leaves", new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(10.0f).requiresTool()), ModItemGroup.TooManyOres);
     public static final Block RED_MAPLE_SAPLING = registerBlock("red_maple_sapling", new SaplingBlock(new RedMapleSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(10.0f).requiresTool()), ModItemGroup.TooManyOres);
-    public static final Block ENDERIUM_BLOCK = registerBlock("enderium_block", new Block(FabricBlockSettings.of(Material.METAL).strength(12.0f).requiresTool()), ModItemGroup.TooManyOres);
-    public static final Block ENDERIUM_ORE = registerBlock("enderium_ore", new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(12.0f).requiresTool(), UniformIntProvider.create(8,14)), ModItemGroup.TooManyOres);
+    public static final Block ENDERIUM_BLOCK = registerBlock("enderium_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6.0f).requiresTool()), ModItemGroup.TooManyOres);
+    public static final Block ENDERIUM_ORE = registerBlock("enderium_ore", new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(6.0f).requiresTool(), UniformIntProvider.create(8,14)), ModItemGroup.TooManyOres);
 
 
 
