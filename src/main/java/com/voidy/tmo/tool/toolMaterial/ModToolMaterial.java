@@ -12,7 +12,7 @@ public enum ModToolMaterial implements net.minecraft.item.ToolMaterial {
 
     CITRINE(MiningLevels.DIAMOND, 2500, 5.0f, 2.0f, 15, () -> Ingredient.ofItems(ModItems.CITRINE)),
     EMERALD(MiningLevels.DIAMOND, 1561, 9.0f, 3.0f, 10, () -> Ingredient.ofItems(Items.EMERALD)),
-    ENDERIUM(MiningLevels.NETHERITE, 3000, 40.0f, 7.0f, 50, () -> Ingredient.ofItems(ModItems.ENDERIUM));
+    ENDERIUM(MiningLevels.NETHERITE, 3000, 16.0f, 7.0f, 50, () -> Ingredient.ofItems(ModItems.ENDERIUM));
 
     private final int miningLevel;
     private final int itemDurability;

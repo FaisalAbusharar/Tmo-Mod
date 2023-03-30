@@ -110,7 +110,7 @@ public class ModItems {
 
 
     public static final Item MAPLE_STICK = registerItem("maple_stick", new Item(new FabricItemSettings()));
-    public static final Item CURSED_STAR = registerItem("cursed_star", new Item(new FabricItemSettings()));
+    public static final Item CURSED_STAR = registerItem("cursed_star", new Item(new FabricItemSettings().fireproof()));
 
 
 
